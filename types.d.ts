@@ -1,1 +1,5 @@
-declare let adsbygoogle: any;
+declare type PWAProps = {
+	title?: string;
+	name?: string;
+	description?: string;
+}
